@@ -12,4 +12,9 @@ public interface QuizService {
 
     Quiz get(Long id);
 
+    void remove(Long id);
+
+    Quiz update(Long id, Quiz quiz);
+
+
 }
